@@ -27,7 +27,7 @@ def recommend(movie):
     return recommended_movies, recommended_movies_posters
 
 
-file_path = '/Users/rahul/PycharmProjects/movies-recommender-system/movie_dict.pkl'  # absolute path
+file_path = '/Users/rahul/PycharmProjects/movies-recommender-system'  # absolute path
 #file_path2 = '/Users/rahul/PycharmProjects/movies-recommender-system/similarity.pkl'
 #movies_dict= pickle.load(open(file_path, 'rb'))
 movies_dict= open(file_path, 'rb')
